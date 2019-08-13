@@ -10,10 +10,11 @@ git clone --recursive
 Then make a build directory and do a typical CMake build from there:
 
 ```
-# mkdir build
-# cd build
-# cmake ..
-# make
+mkdir build
+cd build
+cmake ..
+make
+
 ````
 
 This should produce a binary in the build directory called example,run it and you will get json response in the terminal.
